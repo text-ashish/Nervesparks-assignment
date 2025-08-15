@@ -196,23 +196,8 @@ nutrisense-rag/
 - **Nutritional Accuracy**: ±5% variance from target goals
 - **Recipe Adaptability**: 89% successful modifications
 
-## 🔮 Future Enhancements
 
-### Planned Features
-- [ ] **Multi-Modal Search**: Image-based recipe discovery
-- [ ] **Meal Planning**: Weekly meal plan generation
-- [ ] **Shopping Lists**: Automated grocery list creation
-- [ ] **Nutritional Tracking**: Daily nutrition monitoring
-- [ ] **Cultural Cuisines**: Regional recipe adaptations
-
-### Technical Improvements
-- [ ] **Advanced Embeddings**: Fine-tuned models for food domain
-- [ ] **Real-time Updates**: Dynamic recipe database updates
-- [ ] **Mobile App**: Native mobile application
-- [ ] **Voice Interface**: Speech-to-text recipe search
-
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Google Gemini AI** for powerful language generation capabilities
 - **ChromaDB** for efficient vector storage and retrieval
@@ -237,7 +222,8 @@ emoji: 🥗
 colorFrom: green
 colorTo: blue
 sdk: gradio
-sdk_version: "3.39.0"  # or your installed Gradio version
+sdk_version: "3.39.0"
 app_file: app.py
 pinned: false
 ---
+
