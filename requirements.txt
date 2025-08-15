@@ -14,3 +14,6 @@ tqdm>=4.65.0
 
 # Web UI
 gradio>=3.40.0
+
+google-generativeai
+
