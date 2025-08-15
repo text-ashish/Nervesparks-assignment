@@ -9,23 +9,23 @@
 
 ## 🌟 Key Features
 
-### 🎯 Personalized Recommendations
+###  Personalized Recommendations
 - **Dietary Preferences**: Vegetarian, Vegan, Gluten-Free options
 - **Health-Focused**: Diabetes, Hypertension, Heart-Friendly, Weight Loss, PCOS/PCOD, and more
 - **Allergen Management**: Automatic exclusion of nuts, dairy, eggs, and other allergens
 - **Nutritional Goals**: Customizable calorie, protein, and fat targets
 
-### 🔍 Intelligent Search & Retrieval
+###  Intelligent Search & Retrieval
 - **Semantic Search**: Vector-based recipe matching using embeddings
 - **Multi-Filter System**: Complex filtering based on dietary, health, and allergen constraints
 - **Smart Substitutions**: AI-powered ingredient replacements for allergens and health conditions
 
-### 🧠 AI-Powered Adaptation
+###  AI-Powered Adaptation
 - **Recipe Modification**: Real-time adaptation for health conditions
 - **Nutritional Optimization**: Automatic adjustment to meet user goals
 - **Contextual Explanations**: Clear reasoning for recipe selections and modifications
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -45,7 +45,7 @@
 └─────────────────┘    └──────────────────┘
 ```
 
-## 📋 Technical Requirements
+##  Technical Requirements
 
 ### Dependencies
 ```python
@@ -64,7 +64,7 @@ Create a `.env` file with your API keys:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -84,7 +84,7 @@ cp .env.example .env
 ```
 
 ### 4. Prepare Your Data
-Place your recipe dataset in `data/recipes.csv` with the following columns:
+DataSet used `data/recipes.csv` are having following columns:
 - `recipe_name`: Name of the recipe
 - `ingredients`: List of ingredients
 - `directions`: Cooking instructions
@@ -99,6 +99,7 @@ python app.py
 ```
 
 The application will be available at `http://localhost:7860`
+Live Url: `https://huggingface.co/spaces/text-ashish/NutriSense`
 
 ## 🗂️ Project Structure
 
@@ -122,7 +123,7 @@ nutrisense-rag/
 └── README.md           # This file
 ```
 
-## 🔧 Core Components
+##  Core Components
 
 ### 1. Data Preprocessing (`src/preprocess.py`)
 - **Chunking Strategy**: Optimized text chunks for recipe data
@@ -144,7 +145,7 @@ nutrisense-rag/
 - **Prompt Engineering**: Structured prompts for consistent outputs
 - **Response Formatting**: Organized recipe adaptations and explanations
 
-## 📊 Key Technical Challenges Solved
+##  Key Technical Challenges Solved
 
 ### 1. Nutritional Data Standardization
 - **Challenge**: Inconsistent nutritional information across recipes
@@ -166,7 +167,7 @@ nutrisense-rag/
 - **Solution**: Knowledge-based substitution engine
 - **Implementation**: Categorical replacement with nutritional equivalence
 
-## 🎯 Use Cases
+##  Use Cases
 
 ### For Health-Conscious Users
 - **Diabetes Management**: Low-sugar, high-fiber recipe modifications
@@ -183,12 +184,12 @@ nutrisense-rag/
 - **Child Nutrition**: Balanced macronutrients for growing children
 - **Senior Care**: Easy-to-digest, nutrient-dense options
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Retrieval Accuracy
 - **Semantic Match**: 92% relevance score for recipe queries
 - **Constraint Satisfaction**: 96% success rate in filtering
-- **Response Time**: Average 2.3 seconds per query
+- **Response Time**: Average 7.3 seconds per query
 
 ### User Satisfaction
 - **Dietary Compliance**: 94% adherence to specified restrictions
@@ -210,19 +211,6 @@ nutrisense-rag/
 - [ ] **Mobile App**: Native mobile application
 - [ ] **Voice Interface**: Speech-to-text recipe search
 
-## 🤝 Contributing
-
-We welcome contributions to NutriSense! Please see our contributing guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -232,13 +220,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Sentence Transformers** for high-quality embeddings
 - **HuggingFace** for the open-source ML ecosystem
 
-## 📞 Support
+## 📞 Author
 
-For questions, issues, or suggestions:
-
-- 📧 Email: support@nutrisense.ai
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/nutrisense-rag/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/nutrisense-rag/discussions)
+- 📧 Email: text.ashishkumar@gmail.com
+-  Linkedin: [Ashish Srivastava](http://linkedin.com/in/text-ashish/)
 
 ---
 
