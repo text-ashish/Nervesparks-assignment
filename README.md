@@ -205,7 +205,7 @@ nutrisense-rag/
 - **Sentence Transformers** for high-quality embeddings
 - **HuggingFace** for the open-source ML ecosystem
 
-## 📞 Author
+##  Author
 
 - 📧 Email: text.ashishkumar@gmail.com
 -  Linkedin: [Ashish Srivastava](http://linkedin.com/in/text-ashish/)
@@ -216,14 +216,4 @@ nutrisense-rag/
 
 *NutriSense - Where AI meets personalized nutrition*
 
----
-title: NutriSense
-emoji: 🥗
-colorFrom: green
-colorTo: blue
-sdk: gradio
-sdk_version: "3.39.0"
-app_file: app.py
-pinned: false
----
 
