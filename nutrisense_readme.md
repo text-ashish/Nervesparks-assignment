@@ -245,14 +245,3 @@ For questions, issues, or suggestions:
 **Made with ❤️ for healthy living and intelligent nutrition**
 
 *NutriSense - Where AI meets personalized nutrition*
-
----
-title: NutriSense
-emoji: 🥗
-colorFrom: green
-colorTo: blue
-sdk: gradio
-sdk_version: "3.39.0"  # or your installed Gradio version
-app_file: app.py
-pinned: false
----
